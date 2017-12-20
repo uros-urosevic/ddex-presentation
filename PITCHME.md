@@ -149,17 +149,20 @@ The principle same applies for ISWCs for musical works, GRIDs for releases and a
 
 # ERN Standard
 
+Note:
 The suite of messages contained in this Standard provides a mechanism for Release Providers (usually record companies) to inform their distribution partners (herein called Digital Service Providers (DSPs), including Internet Service Providers (ISPs) and Mobile Service Providers (MSPs)) about Releases that can be made available to the public as electronic Products. Such Releases can include, amongst others, Releases for mobile use, Releases for download under pay-as-you-go, advertisement-supported and subscription models and audiovisual Releases.
 The messages will allow such standardised information flow about the Releases themselves (i.e. Release metadata) as well as information about the commercial terms under which such Releases can be made available.
 Sending or receiving a message using this standard does not necessarily imply, however, that all legal obligations are met for the Releases to be made available.
 
-
+---
 
 # ERN Message Choreography
 
-![alt text][logo]
-[logo]: https://kb.ddex.net/download/attachments/8093882/ERN-38.jpg?version=1&modificationDate=1462885117448&api=v2
+![alt text][ernchoreo]
+[ernchoreo]: https://kb.ddex.net/download/attachments/8093882/ERN-38.jpg?version=1&modificationDate=1462885117448&api=v2
 *Choreography of the Electronic Release Notification Message Suite*
+
++++
 
 - Catalogue - A well-defined collection of Releases.
 Note that the XML tags use the spelling “catalog” instead of catalogue.
@@ -169,19 +172,19 @@ Note that the XML tags use the spelling “catalog” instead of catalogue.
 - CatalogList-Message - The Release Creator wishes to inform a DSP (or any other party) about a catalogue it is (or may be) making available, containing a list of Releases that form part of a catalogue
 
 - PurgeRelease-Message - The Release Creator gains knowledge of a corrupt Release in the systems of a DSPs that cannot be taken down using the NewReleaseMessage
+
+---
  
 # The Baseline XML standard
 
+Note:
 The Electronic Release Notification Message Suite Standard (informally called the "Release Notification Message Standard", see URL) is one of several XML message formats published by DDEX. Release notifications are messages that record labels or aggregators send to distributors to inform them of new releases that are available for distribution, and the terms and conditions under which such releases can be made available.
 The Release Notification Message Standard addresses the problem of a record company or aggregator having to send its products to distribution partners in multiple formats. It can be used for everything from a single release with a single deal, to the communication of a sales campaign that includes price changes over the course of time. Its three main elements are Resources, Releases, and Deals. Resources are the primary assets such as audio or video tracks, and also secondary assets such as cover images and PDF booklets. Releases are the principal products that encompass the resources, and Deals are the descriptions that define how a Release may be used.
 
++++
+
 ## Profiles that narrow down the baseline standard for use in specific use cases
 
-The profile standards define subsets of the full standard for the most common types of Releases and Deals — thus making an implementation straightforward and comparatively simple — by differentiating different kinds of business models (e.g. Download Services, Subscription Streaming Services, Web Radio, etc.) and different kinds of Re-leases (e.g. albums, singles, classical albums, ringtones, etc.).
-DDEX has defined a uniform message for the communication of Release details, including information about their parts, i.e. Resources (such as SoundRecording or Videos) and, in some circumstances also Musical Works from Release Creators (typically: record companies) to Release Distributors (typically: DSPs).
-Such descriptions can, however, vary between different uses. For instance describing a Release that contains a single video ringtone track would differ greatly from a Release representing a digital equivalent of a 10-track pop album with previews. Similarly the commercial information regarding a subscription ringtone differs from commercial information regarding a pay-as-you go download.
-In order to aid companies that only wish to communicate a small subset of the types of products that the “full” DDEX standards allow, DDEX has developed a series of “profiles”. These profiles come in two flavours. Firstly “Release Profiles” that define subsets of Releases to be communicated along the music delivery chain and, secondly, “Business Profiles” that define subsets of the commercial information governing the distribution of such Releases. The Release Profiles primarily concern the ResourceList and ReleaseList sections of the ERN. The Business Profiles primarily concern the DealList section of the ERN.
-Over time, different versions of the Profiles and of the underlying XML standard were published and each profile standard has been written with a specific baseline XML standard (“ERN”) in mind. The table below provides this mapping (note that the table does not differentiate between version 3.4.1 and 3.4):
 
 | Business Profile  | Release Profile  | "Target" ERN |
 | ----------------- | ---------------- | ------------ |
@@ -190,10 +193,19 @@ Over time, different versions of the Profiles and of the underlying XML standard
 |1.2 |	1.2 |	3.7 |
 |1.3 | 1.3	| 3.8 |
 
+Note:
+The profile standards define subsets of the full standard for the most common types of Releases and Deals — thus making an implementation straightforward and comparatively simple — by differentiating different kinds of business models (e.g. Download Services, Subscription Streaming Services, Web Radio, etc.) and different kinds of Re-leases (e.g. albums, singles, classical albums, ringtones, etc.).
+DDEX has defined a uniform message for the communication of Release details, including information about their parts, i.e. Resources (such as SoundRecording or Videos) and, in some circumstances also Musical Works from Release Creators (typically: record companies) to Release Distributors (typically: DSPs).
+Such descriptions can, however, vary between different uses. For instance describing a Release that contains a single video ringtone track would differ greatly from a Release representing a digital equivalent of a 10-track pop album with previews. Similarly the commercial information regarding a subscription ringtone differs from commercial information regarding a pay-as-you go download.
+In order to aid companies that only wish to communicate a small subset of the types of products that the “full” DDEX standards allow, DDEX has developed a series of “profiles”. These profiles come in two flavours. Firstly “Release Profiles” that define subsets of Releases to be communicated along the music delivery chain and, secondly, “Business Profiles” that define subsets of the commercial information governing the distribution of such Releases. The Release Profiles primarily concern the ResourceList and ReleaseList sections of the ERN. The Business Profiles primarily concern the DealList section of the ERN.
+Over time, different versions of the Profiles and of the underlying XML standard were published and each profile standard has been written with a specific baseline XML standard (“ERN”) in mind. The table below provides this mapping (note that the table does not differentiate between version 3.4.1 and 3.4):
 While this table indicates that the Release Profile in version 1.3 is specifically for the ERN standard in version 3.8, most of the profile rules can — and should! — also be applied to Release notifications in accordance with older ERN versions. While some of the rules cannot be used (because they depend on a new feature in the ERN standard), most rules can. And even those than cannot be followed strictly still provide good guidance as to what to do.
+
++++
 
 ## A choreography allowing sender and recipient to automate the exchange of information
 
+Note:
 The Release Delivery Choreography Standard (see URL) provides a rich set of capabilities developed by DDEX that allows small niche firms to large multinational companies to utilise the Release Notification Standard.
 The most basic specification — using FTP — is designed to be simple to implement, but has no additional functionality allowing customisation or visibility into the supply chain. At the other end of the scale, the more granular specification — using web services — allows considerable additional flexibility, much greater visibility and a more efficient supply chain.
 DDEX recommends using acknowledgements when using the FTP choreographies to support non-repudiation.
@@ -205,8 +217,11 @@ Equally, if the content hasn't been taken down, the DSP would want to be able to
 DDEX's message exchange protocols support non-repudiation. When using web-services, non-repudiation is an essential part of the standard. However the FTP profile of the message exchange choreographies do not mandate the use of the acknowledgement messages. And it is these acknowledgement messages that deliver non-repudiation.
 DDEX highly encourages implementers of the FTP-based message exchange choreographies to make use of the acknowledgements.
 
++++
+
 ## Describing Exploitations of Releases (informative)
 
+Note:
 In DDEX Messages MessageSenders can use five allowed value sets to describe how Releases can be (or have been) exploited. They are:
 
     ReleaseType
@@ -219,13 +234,18 @@ The ReleaseType categorises the Release from the point of view of the ReleaseCre
 The third dimension, the Commercial Model type describes how Consumers pay for the Release, whether the transactions are based on subscriptions or whether the Consumer pays directly for each Release received.
 The final two dimensions can be used to describe the devices on which Consumers consume (e.g. a portable device or a games console) the Releases and through what type of conduit they receive the Releases (e.g. a radio broadcast or the Internet). It is important to know that in many cases such detail will not be required and, thus, ConsumerInterfaceType and DistributionChannelType are optional fields in the messages.
 
++++
+
 ## Communication of Allowed Values defined in a later Standard (informative)
 
+Note:
 In order to communicate an allowed values defined by DDEX later than the message format used in the communication between two business partners the following approach shall be taken:
 
 > The element shall contain the value “UserDefined”;
     The UserDefinedValue attribute shall be set to the value from the later standard; and
     The Namespace attribute shall be set to the same value as defined as normative content for the MessageVersionId attribute for that standard.
+    
++++
     
 ## Allowed Value Lists
 
