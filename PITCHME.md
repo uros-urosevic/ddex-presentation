@@ -14,10 +14,14 @@
 Note:
 A record label will help facilitate the production, distribution and promotion of your recorded music (think CD). They will own the recorded music and pay you royalties for using it. A song writer owns the musical composition (think words and notes on paper) and hires a publisher to handle administrative tasks like licensing the music to be used in movies, or printing song books like you would buy at the music store.
 
++++
+
 ### Digital Service Provider (DSP) / Release Distributor
 
 Note:
 A Digital Service Provider (DSP), a Party making Releases available to Consumers or other DSPs over a public Telecom network. This includes MSPs (Mobile Service Providers) and ISPs (Internet Service Providers).
+
++++
 
 ### Musical Work
 
@@ -26,6 +30,8 @@ A Work intended to be perceivable as a combination of sounds, with or without ac
 Any words that are intended to be expressed with a MusicalWork (often termed Lyrics) form part of that MusicalWork; not all MusicalWorks have Lyrics.
 A MusicalWork may be expressed and fixed to become part of a SoundRecording or a Video Recording, or may be used to create notated music (sheet music, scores, instrumental parts) or sound generation codes (such as MIDI files).
 In some cases, the MusicalWork comes into existence simultaneously with its expression. This is common in extemporised forms such as jazz music.
+
++++
 
 ### Song / Recording
 
@@ -41,10 +47,14 @@ For example, Dolly Parton wrote the composition (meaning she wrote the lyrics an
 Note:
 A Manifestation of a Release (or another Resource) which is made available to Consumers, by sale, loan or other means. The attributes of a Release in its digital manifestation as a Product may be technical (e.g., the codec or bit rate); a mode of distribution (e.g., downloading or streaming); or a commercial term (e.g., price).
 
++++
+
 ### Release
 
 Note:
 A Release is an abstract entity representing a bundle of one or more Resources compiled by an Issuer for the purpose of distribution to individual consumers, directly or through intermediaries. The Resources in Releases are normally primarily sound recordings or music audio-visual recordings, but this is not invariably the case. The Release is not itself the item of trade (or “Product”). Products have more extensive attributes than Releases; one Release may be disseminated in many different Products.
+
++++
 
 ### Release Creator
 
@@ -63,16 +73,22 @@ A digital fixation of an expression of an abstract Work (such as a sound recordi
 Note:
 All messages developed within DDEX are based upon a common set of elements and their definitions. These are contained in the DDEX Data Dictionary available from ddex.net.
 
++++
+
 ### Contractually Mandatory
 
 Note:
 The messages defined in this standard contain fields with cardinality “0-1” or “0-n”. Therefore these fields are from the standard’s point of view, optional. Such fields may, however, be mandatory when a DDEX message is sent in a specific commercial context.
 In such circumstances, a message is deemed conformant only if and when it contains all the “contractually mandatory” fields as agreed by MessageSender and MessageRecipient.
 
++++
+
 ### Message Choreography
 
 Note:
 A series of message calls and their responses which together communicate a more comprehensive level of meaning between the two business partners.
+
++++
 
 ### Non repudiation
 
