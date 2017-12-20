@@ -61,6 +61,8 @@ A Release is an abstract entity representing a bundle of one or more Resources c
 Note:
 Release Creator is an organisation which is the owner of copyrights in sound and/or music audiovisual recordings and/or exclusive licensees of copyrights in sound and/or music audiovisual recordings.
 
++++
+
 ### Resource
 
 Note:
@@ -112,7 +114,7 @@ Non repudiation is the assurance that someone cannot deny something. Typically, 
 
 # CIP Overview
 
-![alt text](/Users/urosurosevic/Documents/CIP overview.jpg)
+![alt text](/assets/image/CIPoverview.jpg)
 
 +++
 
