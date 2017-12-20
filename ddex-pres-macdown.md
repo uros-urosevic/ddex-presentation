@@ -3,9 +3,81 @@
 ![alt text][ddexmap]
 [ddexmap]: https://kb.ddex.net/download/attachments/950329/Plenary-1792%20-%20DDEX%20Suppy%20Chain%20Flows%20@29170508.jpg?version=2&modificationDate=1494239690158&api=v2
 
+# Definitions and Terminology
+
+### Label / Publisher
+
+A record label will help facilitate the production, distribution and promotion of your recorded music (think CD). They will own the recorded music and pay you royalties for using it. A song writer owns the musical composition (think words and notes on paper) and hires a publisher to handle administrative tasks like licensing the music to be used in movies, or printing song books like you would buy at the music store.
+
+### Digital Service Provider (DSP) / Release Distributor
+
+A Digital Service Provider (DSP), a Party making Releases available to Consumers or other DSPs over a public Telecom network. This includes MSPs (Mobile Service Providers) and ISPs (Internet Service Providers).
+
+### Musical Work
+
+A Work intended to be perceivable as a combination of sounds, with or without accompanying text.
+Any words that are intended to be expressed with a MusicalWork (often termed Lyrics) form part of that MusicalWork; not all MusicalWorks have Lyrics.
+A MusicalWork may be expressed and fixed to become part of a SoundRecording or a Video Recording, or may be used to create notated music (sheet music, scores, instrumental parts) or sound generation codes (such as MIDI files).
+In some cases, the MusicalWork comes into existence simultaneously with its expression. This is common in extemporised forms such as jazz music.
+
+### Song / Recording
+
+A composition is a musical work, with or without lyrics, that has been created by a songwriter/composer.
+A sound recording, often also referred to as a "master”, is the recording of a performance of the underlying composition. This includes beats, percussion, bass, guitar, vocals, etc.
+For example, Dolly Parton wrote the composition (meaning she wrote the lyrics and melody), to "I Will Always Love You." Arista Records recording artist Whitney Houston recorded a version of Dolly Parton's composition.  In this case, Arista Records owns the sound recording of the song while Dolly Parton and her publisher own the composition.
+
+### Product
+
+A Manifestation of a Release (or another Resource) which is made available to Consumers, by sale, loan or other means. The attributes of a Release in its digital manifestation as a Product may be technical (e.g., the codec or bit rate); a mode of distribution (e.g., downloading or streaming); or a commercial term (e.g., price).
+
+### Release
+
+A Release is an abstract entity representing a bundle of one or more Resources compiled by an Issuer for the purpose of distribution to individual consumers, directly or through intermediaries. The Resources in Releases are normally primarily sound recordings or music audio-visual recordings, but this is not invariably the case. The Release is not itself the item of trade (or “Product”). Products have more extensive attributes than Releases; one Release may be disseminated in many different Products.
+
+### Release Creator
+
+Release Creator is an organisation which is the owner of copyrights in sound and/or music audiovisual recordings and/or exclusive licensees of copyrights in sound and/or music audiovisual recordings.
+
+### Resource
+
+A digital fixation of an expression of an abstract Work (such as a sound recording, a video, an image, software or a passage of text). Resources are individual assets that make up a Release. Typical Resources are sound recordings, video clips and cover art images.
+
+### DDEX Data Dictionary
+
+All messages developed within DDEX are based upon a common set of elements and their definitions. These are contained in the DDEX Data Dictionary available from ddex.net.
+
+### Contractually Mandatory
+
+The messages defined in this standard contain fields with cardinality “0-1” or “0-n”. Therefore these fields are from the standard’s point of view, optional. Such fields may, however, be mandatory when a DDEX message is sent in a specific commercial context.
+In such circumstances, a message is deemed conformant only if and when it contains all the “contractually mandatory” fields as agreed by MessageSender and MessageRecipient.
+
+### Message Choreography
+
+A series of message calls and their responses which together communicate a more comprehensive level of meaning between the two business partners.
+
+### Non repudiation
+
+Non repudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. In ERN standard, the concept of ensuring that a party cannot repudiate, or refute, the sending or receiving of a message.
+
+
+## Abbreviations
+
+- AVS - Allowed Value Set
+- DDEX - Digital Data Exchange
+- DSP - Digital Service Provider (incudes Mobile Service Providers)
+- ERN - Electronic Release Notification
+- GRid - Global Release Identifier
+- ISRC - International Standard Recording Code (for Soundrecordings and Videos)
+- KPTM - Koliko Para Toliko Muzike
+- XSD - XML Schema Definition
+
 # CIP Overview
 
 ![alt text](/Users/urosurosevic/Documents/CIP overview.jpg)
+
+### Web UI
+
+A Web UI that would allow easy organisation of mismatched data is currently in development. It is intended for closed-circle use by Dubset database administrators.
 
 # MediaNet ingestion
 
@@ -25,77 +97,13 @@ Because of these reasons it is essential that companies use an internally genera
 The principle same applies for ISWCs for musical works, GRIDs for releases and all other creations.
 
 
+
 # ERN Standard
 
 The suite of messages contained in this Standard provides a mechanism for Release Providers (usually record companies) to inform their distribution partners (herein called Digital Service Providers (DSPs), including Internet Service Providers (ISPs) and Mobile Service Providers (MSPs)) about Releases that can be made available to the public as electronic Products. Such Releases can include, amongst others, Releases for mobile use, Releases for download under pay-as-you-go, advertisement-supported and subscription models and audiovisual Releases.
 The messages will allow such standardised information flow about the Releases themselves (i.e. Release metadata) as well as information about the commercial terms under which such Releases can be made available.
 Sending or receiving a message using this standard does not necessarily imply, however, that all legal obligations are met for the Releases to be made available.
 
-# Definitions and Terminology
-
-### Digital Service Provider (DSP) / Release Distributor
-
-A Digital Service Provider (DSP), a Party making Releases available to Consumers or other DSPs over a public Telecom network. This includes MSPs (Mobile Service Providers) and ISPs (Internet Service Providers).
-
-### Musical Work
-
-A Work intended to be perceivable as a combination of sounds, with or without accompanying text.
-Any words that are intended to be expressed with a MusicalWork (often termed Lyrics) form part of that MusicalWork; not all MusicalWorks have Lyrics.
-A MusicalWork may be expressed and fixed to become part of a SoundRecording or a Video Recording, or may be used to create notated music (sheet music, scores, instrumental parts) or sound generation codes (such as MIDI files).
-In some cases, the MusicalWork comes into existence simultaneously with its expression. This is common in extemporised forms such as jazz music.
-
-### Product
-
-A Manifestation of a Release (or another Resource) which is made available to Consumers, by sale, loan or other means. The attributes of a Release in its digital manifestation as a Product may be technical (e.g., the codec or bit rate); a mode of distribution (e.g., downloading or streaming); or a commercial term (e.g., price).
-
-### Release
-
-A Release is an abstract entity representing a bundle of one or more Resources compiled by an Issuer for the purpose of distribution to individual consumers, directly or through intermediaries. The Resources in Releases are normally primarily sound recordings or music audio-visual recordings, but this is not invariably the case. The Release is not itself the item of trade (or “Product”). Products have more extensive attributes than Releases; one Release may be disseminated in many different Products.
-
-### Release Creator
-
-Release Creator is an organisation which is the owner of copyrights in sound and/or music audiovisual recordings and/or exclusive licensees of copyrights in sound and/or music audiovisual recordings.
-
-### Resource
-
-A digital fixation of an expression of an abstract Work (such as a sound recording, a video, an image, software or a passage of text). Resources are individual assets that make up a Release. Typical Resources are sound recordings, video clips and cover art images.
-
-### Contractually Mandatory
-
-The messages defined in this standard contain fields with cardinality “0-1” or “0-n”. Therefore these fields are from the standard’s point of view, optional. Such fields may, however, be mandatory when a DDEX message is sent in a specific commercial context.
-In such circumstances, a message is deemed conformant only if and when it contains all the “contractually mandatory” fields as agreed by MessageSender and MessageRecipient.
-
-### DDEX Data Dictionary
-
-All messages developed within DDEX are based upon a common set of elements and their definitions. These are contained in the DDEX Data Dictionary available from ddex.net.
-
-### Label / Publisher
-
-A record label will help facilitate the production, distribution and promotion of your recorded music (think CD). They will own the recorded music and pay you royalties for using it. A song writer owns the musical composition (think words and notes on paper) and hires a publisher to handle administrative tasks like licensing the music to be used in movies, or printing song books like you would buy at the music store.
-
-### Song / Recording
-
-A composition is a musical work, with or without lyrics, that has been created by a songwriter/composer.
-A sound recording, often also referred to as a "master”, is the recording of a performance of the underlying composition. This includes beats, percussion, bass, guitar, vocals, etc.
-For example, Dolly Parton wrote the composition (meaning she wrote the lyrics and melody), to "I Will Always Love You." Arista Records recording artist Whitney Houston recorded a version of Dolly Parton's composition.  In this case, Arista Records owns the sound recording of the song while Dolly Parton and her publisher own the composition.
-
-### Hyphens
-
-For human consumption hyphens may be added to data. Therefore, the HTML/PDF export of the ID data may contain hyphens whereas the XML export MUST NOT.
-
-### Web UI
-
-A Web UI that would allow easy organisation of mismatched data is currently in development. It is intended for closed-circle use by database administrators.
-
-## Abbreviations
-
-- AVS - Allowed Value Set
-- DDEX - Digital Data Exchange
-- DSP - Digital Service Provider (incudes Mobile Service Providers)
-- ERN - Electronic Release Notification
-- GRid - Global Release Identifier
-- KPTM - Koliko Para Toliko Muzike
-- XSD - XML Schema Definition
 
 
 # ERN Message Choreography
@@ -112,6 +120,41 @@ Note that the XML tags use the spelling “catalog” instead of catalogue.
 - CatalogList-Message - The Release Creator wishes to inform a DSP (or any other party) about a catalogue it is (or may be) making available, containing a list of Releases that form part of a catalogue
 
 - PurgeRelease-Message - The Release Creator gains knowledge of a corrupt Release in the systems of a DSPs that cannot be taken down using the NewReleaseMessage
+ 
+# The Baseline XML standard
+
+The Electronic Release Notification Message Suite Standard (informally called the "Release Notification Message Standard", see URL) is one of several XML message formats published by DDEX. Release notifications are messages that record labels or aggregators send to distributors to inform them of new releases that are available for distribution, and the terms and conditions under which such releases can be made available.
+The Release Notification Message Standard addresses the problem of a record company or aggregator having to send its products to distribution partners in multiple formats. It can be used for everything from a single release with a single deal, to the communication of a sales campaign that includes price changes over the course of time. Its three main elements are Resources, Releases, and Deals. Resources are the primary assets such as audio or video tracks, and also secondary assets such as cover images and PDF booklets. Releases are the principal products that encompass the resources, and Deals are the descriptions that define how a Release may be used.
+
+## Profiles that narrow down the baseline standard for use in specific use cases
+
+The profile standards define subsets of the full standard for the most common types of Releases and Deals — thus making an implementation straightforward and comparatively simple — by differentiating different kinds of business models (e.g. Download Services, Subscription Streaming Services, Web Radio, etc.) and different kinds of Re-leases (e.g. albums, singles, classical albums, ringtones, etc.).
+DDEX has defined a uniform message for the communication of Release details, including information about their parts, i.e. Resources (such as SoundRecording or Videos) and, in some circumstances also Musical Works from Release Creators (typically: record companies) to Release Distributors (typically: DSPs).
+Such descriptions can, however, vary between different uses. For instance describing a Release that contains a single video ringtone track would differ greatly from a Release representing a digital equivalent of a 10-track pop album with previews. Similarly the commercial information regarding a subscription ringtone differs from commercial information regarding a pay-as-you go download.
+In order to aid companies that only wish to communicate a small subset of the types of products that the “full” DDEX standards allow, DDEX has developed a series of “profiles”. These profiles come in two flavours. Firstly “Release Profiles” that define subsets of Releases to be communicated along the music delivery chain and, secondly, “Business Profiles” that define subsets of the commercial information governing the distribution of such Releases. The Release Profiles primarily concern the ResourceList and ReleaseList sections of the ERN. The Business Profiles primarily concern the DealList section of the ERN.
+Over time, different versions of the Profiles and of the underlying XML standard were published and each profile standard has been written with a specific baseline XML standard (“ERN”) in mind. The table below provides this mapping (note that the table does not differentiate between version 3.4.1 and 3.4):
+
+| Business Profile  | Release Profile  | "Target" ERN |
+| ----------------- | ---------------- | ------------ |
+| 1.0 |	1.0 | 3.3 and 3.4 |
+|1.1 and 1.2 |	1.1 |	3.6 |
+|1.2 |	1.2 |	3.7 |
+|1.3 | 1.3	| 3.8 |
+
+While this table indicates that the Release Profile in version 1.3 is specifically for the ERN standard in version 3.8, most of the profile rules can — and should! — also be applied to Release notifications in accordance with older ERN versions. While some of the rules cannot be used (because they depend on a new feature in the ERN standard), most rules can. And even those than cannot be followed strictly still provide good guidance as to what to do.
+
+## A choreography allowing sender and recipient to automate the exchange of information
+
+The Release Delivery Choreography Standard (see URL) provides a rich set of capabilities developed by DDEX that allows small niche firms to large multinational companies to utilise the Release Notification Standard.
+The most basic specification — using FTP — is designed to be simple to implement, but has no additional functionality allowing customisation or visibility into the supply chain. At the other end of the scale, the more granular specification — using web services — allows considerable additional flexibility, much greater visibility and a more efficient supply chain.
+DDEX recommends using acknowledgements when using the FTP choreographies to support non-repudiation.
+DDEX messages convey, in effect, an extension or exhibit to the commercial contract between sender and recipient. It is therefore very important that the sender of a message knows that the message has arrived - and can prove that it has arrived. Equally, it is often important for a company to be able to show that he has not received a specific message. One  example where the benefit of having non-repudiatable messages are take-down notices sent from a label to a DSP:
+
+> The sender needs to know that a take-down notice has been received by its down-stream partners to fulfil its legal obligation to, for instance, the artist that has requested the content to be taken down.
+Equally, if the content hasn't been taken down, the DSP would want to be able to show that label has not sent the take-down notice and, thus, the fault is not with the DSP.
+
+DDEX's message exchange protocols support non-repudiation. When using web-services, non-repudiation is an essential part of the standard. However the FTP profile of the message exchange choreographies do not mandate the use of the acknowledgement messages. And it is these acknowledgement messages that deliver non-repudiation.
+DDEX highly encourages implementers of the FTP-based message exchange choreographies to make use of the acknowledgements.
 
 ## Describing Exploitations of Releases (informative)
 
@@ -131,7 +174,7 @@ The final two dimensions can be used to describe the devices on which Consumers 
 
 In order to communicate an allowed values defined by DDEX later than the message format used in the communication between two business partners the following approach shall be taken:
 
-    The element shall contain the value “UserDefined”;
+> The element shall contain the value “UserDefined”;
     The UserDefinedValue attribute shall be set to the value from the later standard; and
     The Namespace attribute shall be set to the same value as defined as normative content for the MessageVersionId attribute for that standard.
     
@@ -144,9 +187,6 @@ This Standard does not explicitly list allowed values. The XML Schema files cont
 
 The Namespace attributes can be used to allow message parties to use proprietary value lists.
 The allowed value for the Namespace attribute which is recommended to be used is the DDEX Party Identifier of the party controlling the proprietary allowed value, as defined in, and administered in accordance with the latest version of the DDEX Party ID Standard.
-
-
-
 
 
 # ERN Choreography Standard. Part 1: SFTP Exchange (Version 1.6.1)
@@ -169,13 +209,10 @@ Unique upload and download folders should be created according to the choreograp
 Messages should be ingested in order of folder timestamp.
 Incoming and outgoing files should follow a standardised, descriptive naming convention, including version and/or timestamp. Such a standard reduces the possibility of processing the same file multiple times. These are also defined in the aforementioned standard.
 
-### Message Choreography
+##Product Deliveries using Web services
 
-A series of message calls and their responses which together communicate a more comprehensive level of meaning between the two business partners.
+Not relevant.
 
-### Non repudiation
-
-Non repudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. In ERN standard, the concept of ensuring that a party cannot repudiate, or refute, the sending or receiving of a message.
 
 # SFTP Release-by-Release Profile Choreography
 
@@ -212,14 +249,14 @@ ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
 
 With:
 
-    ReleaseId being the identifier used in the NewReleaseMessage to uniquely identify the Release.
-    Label being an optional, mnemonic token to identify the company compiling the Release. This element is primarily for human intervention and may only contain letters, digits and dashes (“-“)..
-    TechnicalResourceId being an optional string, starting with the letter “T”, that is used in the NewReleaseMesage’s relevant XML tag of the same name to uniquely identify the Resource.
-    ResourceType being an optional element to indicate the type of resource (typically where this is not clear from the Ext element). This may be a generic value such as "SoundRecording" or it may be used to designate a more specific type such as CoverArt or even an abbreviation such as WP for a wallpaper Resource. This element is primarily for human intervention.
-    Hierarchy being an optional element to indicate where, in the hierarchy of the Release the Resource fits. This element should comprise of a sequence of three-digit, zero padded numbers separated by underscores (e.g. 008_015 for the 15th Resource in the 8th Resource Group). This Hierarchy element should correspond to the ResourceGroup composite in the NewReleaseMessage.
-    YYYYMMDDhhmmssnnn being the date and time that the Release is placed on the ftp server.
-    ErnMessageId being the ID used in the ReleaseNotificationMessage being acknowledged.
-    Ext being the typical file extension for the Resource type (or .xml for the NewReleaseMessage or FtpAcknowledgement Message).
+- ReleaseId being the identifier used in the NewReleaseMessage to uniquely identify the Release.
+- Label being an optional, mnemonic token to identify the company compiling the Release. This element is primarily for human intervention and may only contain letters, digits and dashes (“-“)..
+- TechnicalResourceId being an optional string, starting with the letter “T”, that is used in the NewReleaseMesage’s relevant XML tag of the same name to uniquely identify the Resource.
+- ResourceType being an optional element to indicate the type of resource (typically where this is not clear from the Ext element). This may be a generic value such as "SoundRecording" or it may be used to designate a more specific type such as CoverArt or even an abbreviation such as WP for a wallpaper Resource. This element is primarily for human intervention.
+- Hierarchy being an optional element to indicate where, in the hierarchy of the Release the Resource fits. This element should comprise of a sequence of three-digit, zero padded numbers separated by underscores (e.g. 008_015 for the 15th Resource in the 8th Resource Group). This Hierarchy element should correspond to the ResourceGroup composite in the NewReleaseMessage.
+- YYYYMMDDhhmmssnnn being the date and time that the Release is placed on the ftp server.
+- ErnMessageId being the ID used in the ReleaseNotificationMessage being acknowledged.
+- Ext being the typical file extension for the Resource type (or .xml for the NewReleaseMessage or FtpAcknowledgement Message).
 
 Note: The Resource file name in accordance with this clause is only guaranteed to be unique and useful for the duration of the Release delivery (i.e until an acknowledgement has been sent).
 
@@ -295,40 +332,6 @@ Track Releases are single-track Releases that are generated to allow "un-bundlin
 The NewReleaseMessage allows for a Release to "point" to another release using the RelatedRelease composite. In some cases this has been used to indicate that a Track Release has been ‘un-bundled’ from an album Release. This should, however, only be done if the album release is not the Main Release in the same NewReleaseMessage.
 Therefore, the Track Release shall not point to the Main Release it comes from if they are both communicated in the same NewReleaseMessage.
 
-# The Baseline XML standard
-
-The Electronic Release Notification Message Suite Standard (informally called the "Release Notification Message Standard", see URL) is one of several XML message formats published by DDEX. Release notifications are messages that record labels or aggregators send to distributors to inform them of new releases that are available for distribution, and the terms and conditions under which such releases can be made available.
-The Release Notification Message Standard addresses the problem of a record company or aggregator having to send its products to distribution partners in multiple formats. It can be used for everything from a single release with a single deal, to the communication of a sales campaign that includes price changes over the course of time. Its three main elements are Resources, Releases, and Deals. Resources are the primary assets such as audio or video tracks, and also secondary assets such as cover images and PDF booklets. Releases are the principal products that encompass the resources, and Deals are the descriptions that define how a Release may be used.
-
-## Profiles that narrow down the baseline standard for use in specific use cases
-
-The profile standards define subsets of the full standard for the most common types of Releases and Deals — thus making an implementation straightforward and comparatively simple — by differentiating different kinds of business models (e.g. Download Services, Subscription Streaming Services, Web Radio, etc.) and different kinds of Re-leases (e.g. albums, singles, classical albums, ringtones, etc.).
-DDEX has defined a uniform message for the communication of Release details, including information about their parts, i.e. Resources (such as SoundRecording or Videos) and, in some circumstances also Musical Works from Release Creators (typically: record companies) to Release Distributors (typically: DSPs).
-Such descriptions can, however, vary between different uses. For instance describing a Release that contains a single video ringtone track would differ greatly from a Release representing a digital equivalent of a 10-track pop album with previews. Similarly the commercial information regarding a subscription ringtone differs from commercial information regarding a pay-as-you go download.
-In order to aid companies that only wish to communicate a small subset of the types of products that the “full” DDEX standards allow, DDEX has developed a series of “profiles”. These profiles come in two flavours. Firstly “Release Profiles” that define subsets of Releases to be communicated along the music delivery chain and, secondly, “Business Profiles” that define subsets of the commercial information governing the distribution of such Releases. The Release Profiles primarily concern the ResourceList and ReleaseList sections of the ERN. The Business Profiles primarily concern the DealList section of the ERN.
-Over time, different versions of the Profiles and of the underlying XML standard were published and each profile standard has been written with a specific baseline XML standard (“ERN”) in mind. The table below provides this mapping (note that the table does not differentiate between version 3.4.1 and 3.4):
-
-| Business Profile  | Release Profile  | "Target" ERN |
-| ----------------- | ---------------- | ------------ |
-| 1.0 |	1.0 | 3.3 and 3.4 |
-|1.1 and 1.2 |	1.1 |	3.6 |
-|1.2 |	1.2 |	3.7 |
-|1.3 | 1.3	| 3.8 |
-
-While this table indicates that the Release Profile in version 1.3 is specifically for the ERN standard in version 3.8, most of the profile rules can — and should! — also be applied to Release notifications in accordance with older ERN versions. While some of the rules cannot be used (because they depend on a new feature in the ERN standard), most rules can. And even those than cannot be followed strictly still provide good guidance as to what to do.
-
-## A choreography allowing sender and recipient to automate the exchange of information
-
-The Release Delivery Choreography Standard (see URL) provides a rich set of capabilities developed by DDEX that allows small niche firms to large multinational companies to utilise the Release Notification Standard.
-The most basic specification — using FTP — is designed to be simple to implement, but has no additional functionality allowing customisation or visibility into the supply chain. At the other end of the scale, the more granular specification — using web services — allows considerable additional flexibility, much greater visibility and a more efficient supply chain.
-DDEX recommends using acknowledgements when using the FTP choreographies to support non-repudiation.
-DDEX messages convey, in effect, an extension or exhibit to the commercial contract between sender and recipient. It is therefore very important that the sender of a message knows that the message has arrived - and can prove that it has arrived. Equally, it is often important for a company to be able to show that he has not received a specific message. One  example where the benefit of having non-repudiatable messages are take-down notices sent from a label to a DSP:
-
-    The sender needs to know that a take-down notice has been received by its down-stream partners to fulfil its legal obligation to, for instance, the artist that has requested the content to be taken down.
-    Equally, if the content hasn't been taken down, the DSP would want to be able to show that label has not sent the take-down notice and, thus, the fault is not with the DSP.
-
-DDEX's message exchange protocols support non-repudiation. When using web-services, non-repudiation is an essential part of the standard. However the FTP profile of the message exchange choreographies do not mandate the use of the acknowledgement messages. And it is these acknowledgement messages that deliver non-repudiation.
-DDEX highly encourages implementers of the FTP-based message exchange choreographies to make use of the acknowledgements.
 
 # Structure of the NewReleaseMessage
 
@@ -347,18 +350,19 @@ Individual sections are:
 ## XML Schema
 
 The XML Schema files for all DDEX standards are available in two forms:
-Zip Archive
+
+- Zip Archive
 
 Implementers can download a zip archive with all relevant XML Schema definitions from the same page where the relevant standard itself is available for download. 
-
 These files are specifically designed to be downloaded and used when implementing the relevant DDEX standards.
-On ddex.net
+
+- On ddex.net
 
 Implementers can also access all XML Schema files from the appropriate subfolder from http://ddex.net/xml (e.g. http://ddex.net/xml/ern/351/ for Version 3.5.1 of the Release Notification Message Suite Standard (a.k.a. ERN).
-
 It is these locations that users of the standard are expected to use in the top level tag of a DDEX message exchanged commercially:
+The order of attributes within an XML tag are of no significance.
 
-The order of attributes within an XML tag are of no significance. 
+> For human consumption hyphens may be added to data. Therefore, the HTML/PDF export of the ID data may contain hyphens whereas the XML export MUST NOT.
 
 ## Message Header
 
@@ -372,7 +376,7 @@ Rationale
 The only purpose for such an UpdateIndicator field would be to indicate to the recipient that it already has received and ingested a message containing the same data elements and that the current message provides an update to the older message,
 This assumes, therefore, that
 
-    The sender knows that it has already send a message about the same, in our case, Release;
+> The sender knows that it has already send a message about the same, in our case, Release;
     The recipient has received this message;
     The recipient has ingested this message (the original message may still be in a ingestion queue when an urgent update is sent); and
     The recipient still has  the Release in its database when the update message arrives.
