@@ -1,4 +1,4 @@
-## Netflix Speaker
+# Sky Speaker
 
 ### A GitPitch Presentation Template
 
@@ -120,14 +120,14 @@ online @ [GitPitch.com](https://gitpitch.com) :)
 
 ### Template Versions
 
-- #### [Base Template  @fa[external-link gp-download]](https://gitpitch.com/gitpitch/templates/netflix)
-- #### [Code Maximized @fa[external-link gp-download]](https://gitpitch.com/gitpitch/templates/netflix?p=codemax)
-- #### [Speaker Notes @fa[external-link gp-download]](https://gitpitch.com/gitpitch/templates/netflix?p=speaker)
+- #### [Base Template  @fa[external-link gp-download]](https://gitpitch.com/gitpitch/templates/sky)
+- #### [Code Maximized @fa[external-link gp-download]](https://gitpitch.com/gitpitch/templates/sky?p=codemax)
+- #### [Speaker Notes @fa[external-link gp-download]](https://gitpitch.com/gitpitch/templates/sky?p=speaker)
 
 Note:
 
 You can use the links on this slide to explore alternate
-versions of this template. 
+versions of this template.
 
 ---
 
@@ -150,8 +150,9 @@ learn from your audience.
 
 @title[Download this Template!]
 
-### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/netflix)
+### <span class="white">Get your presentation started!</span>
+### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/sky)
+
 
 Note:
 

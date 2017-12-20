@@ -4,10 +4,10 @@
 # For details, visit Wiki:
 # https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
 #
-theme : night
+theme : sky
 theme-override : assets/css/PITCHME.codemax.css
 logo : assets/image/logo.png
-highlight : atom-one-light
+highlight : hybrid
 transition : none
 published : true
-footnote : "GitPitch [ Netflix CodeMax ] Presentation Template"
+footnote : "GitPitch [ Sky ] Presentation Template"

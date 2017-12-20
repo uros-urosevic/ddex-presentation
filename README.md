@@ -1,13 +1,13 @@
 # GitPitch Presentation Template
 
-This branch contains **Netflix**, a GitPitch presentation template.
+This branch contains **Sky**, a GitPitch presentation template.
 
 In fact within this branch you will find three variations of the
-Netflix template, each optimized for specific use-cases:
+Sky template, each optimized for specific use-cases:
 
-1. Netflix Base Template
-2. Netflix CodeMax Template
-3. Netflix Speaker Template
+1. Sky Base Template
+2. Sky CodeMax Template
+3. Sky Speaker Template
 
 The content in this branch is a great example of how you can deliver
 multiple-presentations (with optional asset sharing) within a
@@ -24,9 +24,9 @@ private repo on GitHub, GitLab, or Bitbucket.
 
 > Warning, this branch has it's own `README.md` and numerous other files under the `assets`, `codemax`, `speaker`, and `src` directories. These may be files or directories that you are already using in your own repo.  If you are going to copy the entire contents of this branch into your repo, please check to ensure that you do not accidentally overwrite existing files.
 
-## Netflix Base Template
+## Sky Base Template
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/netflix)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/sky)
 
 The Base template is an excellent starting point for any 
 presentation author. The template markdown found in
@@ -49,9 +49,9 @@ Once you have those files under source control inside your
 Git repo you are ready to start customizing the markdown content,
 settings, imagery, styles, etc.
 
-## Netflix CodeMax Template
+## Sky CodeMax Template
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/netflix?p=codemax)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/sky?p=codemax)
 
 The CodeMax template makes a small number of changes to the
 custom CSS of the Base template in order to maximize the space
@@ -79,9 +79,9 @@ Note, if you want the CodeMax template to become the
 default presentation for your repo, move `codemax/PITCHME.md`
 and `codemax/PITCHME.yaml` to the root directory of your repo.
 
-## Netflix Speaker Template
+## Sky Speaker Template
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/netflix?p=speaker)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/sky?p=speaker)
 
 The Speaker template is identical to the Base template with
 one addition, sample speaker notes have been added
