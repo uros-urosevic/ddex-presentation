@@ -10,4 +10,4 @@ logo : assets/image/logo.png
 highlight : hybrid
 transition : none
 published : true
-footnote : "GitPitch [ Sky ] Presentation Template"
+# footnote : "GitPitch [ Sky ] Presentation Template"
