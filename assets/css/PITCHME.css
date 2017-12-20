@@ -36,8 +36,8 @@
 }
 
 #gp-logo img {
-  max-height: none;
-  max-width: none;
+  max-height: 128px;
+  max-width: 128px;
 }
 
 .white {
