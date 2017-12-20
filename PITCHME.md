@@ -10,59 +10,64 @@
 +++
 
 ### Label / Publisher
-
+Note:
 A record label will help facilitate the production, distribution and promotion of your recorded music (think CD). They will own the recorded music and pay you royalties for using it. A song writer owns the musical composition (think words and notes on paper) and hires a publisher to handle administrative tasks like licensing the music to be used in movies, or printing song books like you would buy at the music store.
 
 ### Digital Service Provider (DSP) / Release Distributor
-
+Note:
 A Digital Service Provider (DSP), a Party making Releases available to Consumers or other DSPs over a public Telecom network. This includes MSPs (Mobile Service Providers) and ISPs (Internet Service Providers).
 
 ### Musical Work
-
+Note:
 A Work intended to be perceivable as a combination of sounds, with or without accompanying text.
 Any words that are intended to be expressed with a MusicalWork (often termed Lyrics) form part of that MusicalWork; not all MusicalWorks have Lyrics.
 A MusicalWork may be expressed and fixed to become part of a SoundRecording or a Video Recording, or may be used to create notated music (sheet music, scores, instrumental parts) or sound generation codes (such as MIDI files).
 In some cases, the MusicalWork comes into existence simultaneously with its expression. This is common in extemporised forms such as jazz music.
 
 ### Song / Recording
-
+Note:
 A composition is a musical work, with or without lyrics, that has been created by a songwriter/composer.
 A sound recording, often also referred to as a "master”, is the recording of a performance of the underlying composition. This includes beats, percussion, bass, guitar, vocals, etc.
 For example, Dolly Parton wrote the composition (meaning she wrote the lyrics and melody), to "I Will Always Love You." Arista Records recording artist Whitney Houston recorded a version of Dolly Parton's composition.  In this case, Arista Records owns the sound recording of the song while Dolly Parton and her publisher own the composition.
 
-### Product
++++
 
+### Product
+Note:
 A Manifestation of a Release (or another Resource) which is made available to Consumers, by sale, loan or other means. The attributes of a Release in its digital manifestation as a Product may be technical (e.g., the codec or bit rate); a mode of distribution (e.g., downloading or streaming); or a commercial term (e.g., price).
 
 ### Release
-
+Note:
 A Release is an abstract entity representing a bundle of one or more Resources compiled by an Issuer for the purpose of distribution to individual consumers, directly or through intermediaries. The Resources in Releases are normally primarily sound recordings or music audio-visual recordings, but this is not invariably the case. The Release is not itself the item of trade (or “Product”). Products have more extensive attributes than Releases; one Release may be disseminated in many different Products.
 
 ### Release Creator
-
+Note:
 Release Creator is an organisation which is the owner of copyrights in sound and/or music audiovisual recordings and/or exclusive licensees of copyrights in sound and/or music audiovisual recordings.
 
 ### Resource
-
+Note:
 A digital fixation of an expression of an abstract Work (such as a sound recording, a video, an image, software or a passage of text). Resources are individual assets that make up a Release. Typical Resources are sound recordings, video clips and cover art images.
 
-### DDEX Data Dictionary
++++
 
+### DDEX Data Dictionary
+Note:
 All messages developed within DDEX are based upon a common set of elements and their definitions. These are contained in the DDEX Data Dictionary available from ddex.net.
 
 ### Contractually Mandatory
-
+Note:
 The messages defined in this standard contain fields with cardinality “0-1” or “0-n”. Therefore these fields are from the standard’s point of view, optional. Such fields may, however, be mandatory when a DDEX message is sent in a specific commercial context.
 In such circumstances, a message is deemed conformant only if and when it contains all the “contractually mandatory” fields as agreed by MessageSender and MessageRecipient.
 
 ### Message Choreography
-
+Note:
 A series of message calls and their responses which together communicate a more comprehensive level of meaning between the two business partners.
 
 ### Non repudiation
-
+Note:
 Non repudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. In ERN standard, the concept of ensuring that a party cannot repudiate, or refute, the sending or receiving of a message.
 
+---
 
 ## Abbreviations
 
@@ -75,22 +80,30 @@ Non repudiation is the assurance that someone cannot deny something. Typically, 
 - KPTM - Koliko Para Toliko Muzike
 - XSD - XML Schema Definition
 
+---
+
 # CIP Overview
 
 ![alt text](/Users/urosurosevic/Documents/CIP overview.jpg)
+
++++
 
 ### Web UI
 
 A Web UI that would allow easy organisation of mismatched data is currently in development. It is intended for closed-circle use by Dubset database administrators.
 
-# MediaNet ingestion
+---
 
+# MediaNet ingestion
+Note:
 This guide is written for music labels and other content providers who want to submit new audio content to be added to the MusicNet content database for distribution by our retailers. Each shipment of digital or physical media that you send to us should include one or more XML files containing metadata that describes the new albums and tracks in that shipment.  This metadata will include artist and pricing information for each album and track as well as information about their distribution and usage rights.
+
++++
 
 ***Should I use an ISRC as the primary key for my database?***
 
 No.
-
+Note:
 While ISRCs are the preferred identifier for identifying sound recording when communicating about releases and contained resources, they are not able to be used as primary keys in anyone's database.There are at least three reasons for this:
 
 1. When receiving a DDEX message describing a sound recording the recipient cannot rely on this information to be 100% correct 100% of the time. The ISRC in such a message may, not be an ISRC after all (even if claimed to be one) or a duplicate code.
@@ -100,7 +113,7 @@ While ISRCs are the preferred identifier for identifying sound recording when co
 Because of these reasons it is essential that companies use an internally generated code as the primary key for each of the objects they handle. And may be necessary to keep a copy of a SoundRecodring descriptor for each Release.
 The principle same applies for ISWCs for musical works, GRIDs for releases and all other creations.
 
-
+---
 
 # ERN Standard
 
