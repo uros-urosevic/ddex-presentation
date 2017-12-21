@@ -5,7 +5,7 @@
 
 ---
 
-# Definitions and Terminology
+## Definitions and Terminology
 
 +++
 
@@ -112,7 +112,7 @@ Non repudiation is the assurance that someone cannot deny something. Typically, 
 
 ---
 
-# CIP Overview
+## CIP Overview
 
 +++
 
@@ -126,7 +126,7 @@ A Web UI that would allow easy organisation of mismatched data is currently in d
 
 ---
 
-# MediaNet ingestion
+## MediaNet ingestion
 
 Note:
 This guide is written for music labels and other content providers who want to submit new audio content to be added to the MusicNet content database for distribution by our retailers. Each shipment of digital or physical media that you send to us should include one or more XML files containing metadata that describes the new albums and tracks in that shipment.  This metadata will include artist and pricing information for each album and track as well as information about their distribution and usage rights.
@@ -151,7 +151,7 @@ The principle same applies for ISWCs for musical works, GRIDs for releases and a
 
 ---
 
-# ERN Standard
+## ERN Standard
 
 Note:
 The suite of messages contained in this Standard provides a mechanism for Release Providers (usually record companies) to inform their distribution partners (herein called Digital Service Providers (DSPs), including Internet Service Providers (ISPs) and Mobile Service Providers (MSPs)) about Releases that can be made available to the public as electronic Products. Such Releases can include, amongst others, Releases for mobile use, Releases for download under pay-as-you-go, advertisement-supported and subscription models and audiovisual Releases.
@@ -163,7 +163,7 @@ Sending or receiving a message using this standard does not necessarily imply, h
 
 ---
 
-# ERN Message Choreography
+## ERN Message Choreography
 
 +++
 
@@ -190,7 +190,7 @@ Note that the XML tags use the spelling “catalog” instead of catalogue.
 
 ---
  
-# The Baseline XML standard
+## The Baseline XML standard
 
 +++
 
@@ -325,7 +325,7 @@ The Namespace attribute shall be set to the same value as defined as normative c
     
 ---
 
-# ERN Choreography: SFTP Exchange
+## ERN Choreography: SFTP Exchange
 
 +++
 
@@ -373,7 +373,7 @@ Not relevant.
 
 ---
 
-# SFTP Release-by-Release Choreography
+## SFTP Release-by-Release Choreography
 
 ![alt text][rlr]
 [rlr]: https://kb.ddex.net/download/attachments/7210303/RbR.bmp?version=1&modificationDate=1447662157883&api=v2
@@ -438,7 +438,7 @@ Note:
 
 ---
 
-# SFTP Batch Release Choreography
+## SFTP Batch Release Choreography
 
 +++
 
@@ -502,13 +502,13 @@ Example of Server Organisation and File Naming Convention (informative)
 
 +++
 
-# Hard Disk Delivery
+## Hard Disk Delivery
 
 Not relevant.
 
 ---
 
-# NewReleaseMessage
+## NewReleaseMessage
 
 +++
 
@@ -536,7 +536,7 @@ Therefore, the Track Release shall not point to the Main Release it comes from i
 
 ---
 
-# Structure of the NewReleaseMessage
+## Structure of the NewReleaseMessage
 
 +++
 
