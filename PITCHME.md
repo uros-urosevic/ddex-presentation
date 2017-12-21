@@ -1,9 +1,7 @@
 
 
----?image=/assest/image/DDEXOverview.jpg&size=auto 90%
+---?image=/assets/image/DDEXOverview.jpg&size=auto 90%
 
-
----
 
 ## Definitions and Terminology
 
