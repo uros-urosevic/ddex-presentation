@@ -428,13 +428,15 @@ ReleaseId.Ext
 ```
 Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
 ```
+
+### Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
 +++
 
 - The FtpAcknowledgement shall be named as follows:
 ```
 ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
 ```
-- ### TEST
+
 Note:
 
 - ReleaseId being the identifier used in the NewReleaseMessage to uniquely identify the Release.
