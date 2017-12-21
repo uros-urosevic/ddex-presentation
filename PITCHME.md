@@ -450,12 +450,6 @@ Note:
 Note:
 The trigger to indicate that a Batch is complete is a ManifestMessage as defined in Clause 10 of this standard. In exceptional circumstances, such as for support human intervention, it is permissible to use a zero-byte semaphore file to indicate the upload is complete. This semaphore has to be used instead of an XML manifest formatted in accordance with Clause 10. The use of such a semaphore file may trigger a flag on the recipient’s side, indicating the manual nature of the override. The message is also depicted below.
 
-+++
-
-![alt text][manifestmsg]
-[manifestmsg]: https://kb.ddex.net/download/attachments/7210312/M.png?version=1&modificationDate=1437487885868&api=v2
-
-+++
 
 ---?image=https://kb.ddex.net/download/attachments/7210312/M.png&size=auto 90%
 
