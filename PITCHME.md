@@ -1,5 +1,8 @@
-
 # M
+
+---
+
+# DDEX Overview and Content Ingestion Platform
 
 ---
 
@@ -640,5 +643,10 @@ Each Release Deal references back to the relevant Release using Release Referenc
 Within a Deal, a pre-order date can be specified. The pre-order date defines when the Release can be made available for pre-order, but not fulfilled to the consumer until the Deal start date. A pre-order preview date can also be specified. This defines if and when the preview clips can be made available to the consumer during the pre-order period.
 Deals are also used to notify of Takedowns. A takedown is the blanket loss of all rights and can be applied to specific territories or all territories. A takedown implies that all previous deals are cancelled in the specified territories on the takedown deal start date.
 The exact fields to to be used in a specific business case (e.g. describing a Ringtone Deal or a Subscription Download) is defined in the relevant Business Profile standard.
+
+
+---
+
+# Questions???
 
 
