@@ -165,10 +165,9 @@ Sending or receiving a message using this standard does not necessarily imply, h
 
 ## ERN Message Choreography
 
-+++
 
-![alt text][ernchoreo]
-[ernchoreo]: https://kb.ddex.net/download/attachments/8093882/ERN-38.jpg?version=1&modificationDate=1462885117448&api=v2
+
+---?image=/assets/image/ERNChoreo.jpg&size=auto 90%
 
 
 +++
@@ -375,19 +374,13 @@ Not relevant.
 
 ## SFTP Release-by-Release Choreography
 
-+++
-
-![alt text][rlr]
-[rlr]: https://kb.ddex.net/download/attachments/7210303/RbR.bmp?version=1&modificationDate=1447662157883&api=v2
+---?image=/assets/image/RbRChoreo.bmp&size=auto 90%
 
 +++
 
 ### FtpAcknowledgementMessage
 
-+++
-
-![alt text][ftpack]
-[ftpack]: https://kb.ddex.net/download/attachments/7210303/ACK.png?version=1&modificationDate=1437487885336&api=v2
+---?image=/assets/image/ACK.png&size=auto 90%
 
 Note:
 This standard does not define when the Release Creator shall start or finish to upload the next NewReleaseMessage (incl. all Resource files). Equally, this standard does not define when the Release Distributor shall start or finish its download.
@@ -442,10 +435,7 @@ Note:
 
 ## SFTP Batch Release Choreography
 
-+++
-
-![alt text][batchrl]
-[batchrl]: https://kb.ddex.net/download/attachments/7210312/B.bmp?version=1&modificationDate=1447663547043&api=v2
+---?image=/assets/image/SFTPBatch.bmp&size=auto 90%
 
 Note:
 The trigger to indicate that a Batch is complete is a ManifestMessage as defined in Clause 10 of this standard. In exceptional circumstances, such as for support human intervention, it is permissible to use a zero-byte semaphore file to indicate the upload is complete. This semaphore has to be used instead of an XML manifest formatted in accordance with Clause 10. The use of such a semaphore file may trigger a flag on the recipient’s side, indicating the manual nature of the override. The message is also depicted below.
@@ -510,10 +500,7 @@ Not relevant.
 
 ## NewReleaseMessage
 
-+++
-
-![alt text][newrelmsg]
-[newrelmsg]: https://kb.ddex.net/download/attachments/327770/worddavd00817cf3fb8ab4373a2cfbdfc487c09.png?version=1&modificationDate=1354007667173&api=v2
+---?image=/assets/image/NRM.png&size=auto 90%
 
 +++
 
