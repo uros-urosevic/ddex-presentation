@@ -1,6 +1,6 @@
 
 
-![alt text][ddexmap]&size=auto 90%
+![alt text][ddexmap]&size=auto 50%
 [ddexmap]: https://kb.ddex.net/download/attachments/950329/Plenary-1792%20-%20DDEX%20Suppy%20Chain%20Flows%20@29170508.jpg?version=2&modificationDate=1494239690158&api=v2
 
 
