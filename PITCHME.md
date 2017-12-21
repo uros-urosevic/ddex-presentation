@@ -205,7 +205,7 @@ Note that the XML tags use the spelling “catalog” instead of catalogue.
 
 +++
 
-- The Electronic Release Notification Message Suite Standard (informally called the "Release Notification Message Standard", see URL) is one of several XML message formats published by DDEX.
+- The Electronic Release Notification Message Suite Standard (informally called the "Release Notification Message Standard") is one of several XML message formats published by DDEX.
 - Release notifications are messages that record labels or aggregators send to distributors to inform them of new releases that are available for distribution, and the terms and conditions under which such releases can be made available.
 
 Note:
@@ -307,7 +307,7 @@ The allowed value for the Namespace attribute which is recommended to be used is
 
 +++
 
-## Describing Exploitations of Releases (informative)
+## Describing Exploitations of Releases
 
 +++
 
@@ -326,7 +326,7 @@ The final two dimensions can be used to describe the devices on which Consumers 
 
 +++
 
-## Communication of Allowed Values defined in a later Standard (informative)
+## Communication of Allowed Values defined in a later Standard
 
 Note:
 In order to communicate an allowed values defined by DDEX later than the message format used in the communication between two business partners the following approach shall be taken:
@@ -356,8 +356,8 @@ At this stage, this standard does not address issues arising from data mismatche
 
 +++
 
-- FTP
-- REST
+### FTP
+### REST
 
 Note:
 DDEX defines two mechanisms to exchange DDEX messages between two business partners. As such it establishes a (reliable) "pipe" to transfer DDEX messages, other XML documents and/or files, including binaries containing, for instance, Releases or Resources.
@@ -416,11 +416,17 @@ The FtpAcknowledgementMessage shall be placed into a folder called acknowledgeme
 
 ## File Naming Conventions
 
++++
+
 - The NewReleaseMessage shall be named as follows:
 - ReleaseId.Ext
 
++++
+
 - Each Resource file shall be named as follows:
 - Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
+
++++
 
 - The FtpAcknowledgement shall be named as follows:
 - ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
@@ -440,7 +446,7 @@ The Resource file name in accordance with this clause is only guaranteed to be u
 
 +++
 
-## Example of Server Organisation and File Naming Convention (Informative)
+## Example of Server Organisation and File Naming Convention
 
 Note:
 <https://kb.ddex.net/pages/viewpage.action?pageId=7210306>
@@ -500,7 +506,7 @@ The file name of the ManifestMessage for each Batch shall be the string BatchCom
 The file name of the FtpAcknowledgementMessage for each Batch shall be the string ACK_  the date and time that the Batch is placed on the ftp server, followed by an underscore and the ReleaseId. The file shall have an .xml file extension.
 The NewReleaseMessages shall be named using the same ErnMessageId as used for the enclosing folder with an .xml file extension.
 
-Example of Server Organisation and File Naming Convention (informative)
+Example of Server Organisation and File Naming Convention
 
 <https://kb.ddex.net/pages/viewpage.action?pageId=7210313>
 
