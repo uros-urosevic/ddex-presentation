@@ -114,6 +114,8 @@ Non repudiation is the assurance that someone cannot deny something. Typically, 
 
 # CIP Overview
 
++++
+
 ![alt text](/assets/image/CIPoverview.jpg)
 
 +++
@@ -157,30 +159,40 @@ The messages will allow such standardised information flow about the Releases th
 
 +++
 
-***Sending or receiving a message using this standard does not necessarily imply, however, that all legal obligations are met for the Releases to be made available.***
+Sending or receiving a message using this standard does not necessarily imply, however, that all legal obligations are met for the Releases to be made available.
 
 ---
 
 # ERN Message Choreography
 
++++
+
 ![alt text][ernchoreo]
 [ernchoreo]: https://kb.ddex.net/download/attachments/8093882/ERN-38.jpg?version=1&modificationDate=1462885117448&api=v2
-*Choreography of the Electronic Release Notification Message Suite*
+
 
 +++
 
 - Catalogue - A well-defined collection of Releases.
 Note that the XML tags use the spelling “catalog” instead of catalogue.
 
++++
+
 - NewRelease-Message - The Release Creator decides to make a Release available to the market and collates all necessary information about the Release. This does not necessarily include information about the commercial conditions under which the Release may be made available OR The Release Creator has decided on the commercial conditions under which the Release may be made available.
 
++++
+
 - CatalogList-Message - The Release Creator wishes to inform a DSP (or any other party) about a catalogue it is (or may be) making available, containing a list of Releases that form part of a catalogue
+
++++
 
 - PurgeRelease-Message - The Release Creator gains knowledge of a corrupt Release in the systems of a DSPs that cannot be taken down using the NewReleaseMessage
 
 ---
  
 # The Baseline XML standard
+
++++
 
 - The Electronic Release Notification Message Suite Standard (informally called the "Release Notification Message Standard", see URL) is one of several XML message formats published by DDEX.
 - Release notifications are messages that record labels or aggregators send to distributors to inform them of new releases that are available for distribution, and the terms and conditions under which such releases can be made available.
@@ -191,6 +203,8 @@ The Release Notification Message Standard addresses the problem of a record comp
 +++
 
 ## Profiles that narrow down the baseline standard for use in specific use cases
+
++++
 
 - The profile standards define subsets of the full standard for the most common types of Releases and Deals — thus making an implementation straightforward and comparatively simple — by differentiating different kinds of business models (e.g. Download Services, Subscription Streaming Services, Web Radio, etc.) and different kinds of Re-leases (e.g. albums, singles, classical albums, ringtones, etc.)
 
@@ -228,14 +242,18 @@ While this table indicates that the Release Profile in version 1.3 is specifical
 
 - The Release Delivery Choreography Standard provides a rich set of capabilities developed by DDEX that allows small niche firms to large multinational companies to utilise the Release Notification Standard.
 
++++
+
 - The most basic specification — using FTP — is designed to be simple to implement, but has no additional functionality allowing customisation or visibility into the supply chain. At the other end of the scale, the more granular specification — using web services — allows considerable additional flexibility, much greater visibility and a more efficient supply chain.
+
++++
 
 - DDEX recommends using acknowledgements when using the FTP choreographies to support non-repudiation.
 
 Note:
 DDEX messages convey, in effect, an extension or exhibit to the commercial contract between sender and recipient. It is therefore very important that the sender of a message knows that the message has arrived - and can prove that it has arrived. Equally, it is often important for a company to be able to show that he has not received a specific message. One example where the benefit of having non-repudiatable messages are take-down notices sent from a label to a DSP:
 
-> The sender needs to know that a take-down notice has been received by its down-stream partners to fulfil its legal obligation to, for instance, the artist that has requested the content to be taken down.
+The sender needs to know that a take-down notice has been received by its down-stream partners to fulfil its legal obligation to, for instance, the artist that has requested the content to be taken down.
 Equally, if the content hasn't been taken down, the DSP would want to be able to show that label has not sent the take-down notice and, thus, the fault is not with the DSP.
 
 +++
@@ -280,15 +298,15 @@ The allowed value for the Namespace attribute which is recommended to be used is
 
 ## Describing Exploitations of Releases (informative)
 
-
++++
 
 In DDEX Messages MessageSenders can use five allowed value sets to describe how Releases can be (or have been) exploited. They are:
 
-    ReleaseType
-    UseType
-    CommercialModelType
-    ConsumerInterfaceType
-    Distribution Channel Type
+- ReleaseType
+- UseType
+- CommercialModelType
+- ConsumerInterfaceType
+- Distribution Channel Type
 
 Note:
 The ReleaseType categorises the Release from the point of view of the ReleaseCreator. For example, a ReleaseCreator may create a Release for use as a RingbackTone on a mobile phone. This is distinct from the UseType which describes what a Consumer is allowed to do with a Release. For example, a Release created as a “normal” digital Album, might be used as a RingTone.
@@ -307,7 +325,7 @@ The Namespace attribute shall be set to the same value as defined as normative c
     
 ---
 
-# ERN Choreography Standard. Part 1: SFTP Exchange (Version 1.6.1)
+# ERN Choreography: SFTP Exchange
 
 +++
 
@@ -323,7 +341,7 @@ At this stage, this standard does not address issues arising from data mismatche
 
 +++
 
-##Choreography to Automate Information Exchange
+## Choreography to Automate Information Exchange
 
 - FTP
 - REST
@@ -334,7 +352,7 @@ The entry-level message exchange protocol is based on FTP, the File Transfer Pro
 
 +++
 
-##Product Deliveries using FTP
+## Product Deliveries using FTP
 
 - SFTP
 - Messages should be ingested in order of folder timestamp
@@ -349,13 +367,13 @@ Incoming and outgoing files should follow a standardised, descriptive naming con
 
 +++
 
-##Product Deliveries using Web services
+## Product Deliveries using Web services
 
 Not relevant.
 
 ---
 
-# SFTP Release-by-Release Profile Choreography
+# SFTP Release-by-Release Choreography
 
 ![alt text][rlr]
 [rlr]: https://kb.ddex.net/download/attachments/7210303/RbR.bmp?version=1&modificationDate=1447662157883&api=v2
@@ -363,6 +381,8 @@ Not relevant.
 +++
 
 ### FtpAcknowledgementMessage
+
++++
 
 ![alt text][ftpack]
 [ftpack]: https://kb.ddex.net/download/attachments/7210303/ACK.png?version=1&modificationDate=1437487885336&api=v2
@@ -413,11 +433,12 @@ The Resource file name in accordance with this clause is only guaranteed to be u
 
 ## Example of Server Organisation and File Naming Convention (Informative)
 
+Note:
 <https://kb.ddex.net/pages/viewpage.action?pageId=7210306>
 
 ---
 
-# SFTP Batch Release Profile Choreography
+# SFTP Batch Release Choreography
 
 +++
 
