@@ -457,6 +457,10 @@ The trigger to indicate that a Batch is complete is a ManifestMessage as defined
 
 +++
 
+---?image=https://kb.ddex.net/download/attachments/7210312/M.png?version=1&modificationDate=1437487885868&api=v2&size=auto 90%
+
++++
+
 ## Batch Constraints
 
 - The maximum size of a Batch is not defined in this standard but shall be agreed by Release Creator and Release Distributor before using this Profile.
