@@ -1,6 +1,14 @@
 
 # M
 
+---
+
+## Agenda
+
+- DDEX
+- CIP
+- ERN
+
 ---?image=/assets/image/DDEXOverview.jpg&size=auto 90%
 
 ---
@@ -97,6 +105,8 @@ A series of message calls and their responses which together communicate a more 
 
 Note:
 Non repudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. In ERN standard, the concept of ensuring that a party cannot repudiate, or refute, the sending or receiving of a message.
+
+---?image=/assets/image/DDEXOverview.jpg&size=auto 90%
 
 ---
 
@@ -344,6 +354,8 @@ At this stage, this standard does not address issues arising from data mismatche
 
 ## Choreography to Automate Information Exchange
 
++++
+
 - FTP
 - REST
 
@@ -404,14 +416,14 @@ The FtpAcknowledgementMessage shall be placed into a folder called acknowledgeme
 
 ## File Naming Conventions
 
-- The NewReleaseMessage shall be named as follows
-	ReleaseId.Ext
+- The NewReleaseMessage shall be named as follows:
+- ReleaseId.Ext
 
 - Each Resource file shall be named as follows:
-	Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
+- Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
 
-- The FtpAcknowledgement shall be named as follows
-	ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
+- The FtpAcknowledgement shall be named as follows:
+- ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
 
 Note:
 
