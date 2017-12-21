@@ -375,6 +375,8 @@ Not relevant.
 
 ## SFTP Release-by-Release Choreography
 
++++
+
 ![alt text][rlr]
 [rlr]: https://kb.ddex.net/download/attachments/7210303/RbR.bmp?version=1&modificationDate=1447662157883&api=v2
 
