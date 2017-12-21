@@ -419,18 +419,22 @@ The FtpAcknowledgementMessage shall be placed into a folder called acknowledgeme
 +++
 
 - The NewReleaseMessage shall be named as follows:
-- ReleaseId.Ext
-
+```
+ReleaseId.Ext
+```
 +++
 
 - Each Resource file shall be named as follows:
-- Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
-
+```
+Label_ReleaseId_TechnicalResourceId_ResourceType_Hierarchy.Ext
+```
 +++
 
 - The FtpAcknowledgement shall be named as follows:
-- ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
-
+```
+ACK_YYYYMMDDhhmmssnnn_ErnMessageId.Ext
+```
+- ### TEST
 Note:
 
 - ReleaseId being the identifier used in the NewReleaseMessage to uniquely identify the Release.
